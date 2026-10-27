@@ -37,7 +37,7 @@ cylinder2.position.set(-1, 1, 0);
 cylinder2.castShadow = true;
 scene.add(cylinder2);
 
-import('three/examples/jsm/controls/OrbitControls').then(({ OrbitControls }) => {
+import('three/examples/jsm/controls/OrbitControls.js').then(({ OrbitControls }) => {
   const controls = new OrbitControls(camera, renderer.domElement);
 });
 
